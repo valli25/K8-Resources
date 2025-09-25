@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: label
+    # labels has filtaration features and some other functional uses.
+
+  labels:
+    app: nginx
+    environment: DEV
+    course: kubernets
+    duration: 6weeks
+  spec:
+    containers:
+    - name: label
+      image: nginx
