@@ -2,8 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: label
-    # labels has filtaration features and some other functional uses.
-
+  # labels has filtaration features and some other functional uses.
   labels:
     app: nginx
     environment: DEV
