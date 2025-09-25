@@ -1,0 +1,4 @@
+kind: namespace
+apiversion: v1
+metadata:
+   name: roboshop
